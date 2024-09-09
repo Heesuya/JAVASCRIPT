@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KH-SHOP</title>
+    <link rel="stylesheet" href="css/ice.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="header">
+            <h1>KH-SHOP</h1>
+        </div>
+        <div class="content">
+            <div class="content-header">
+                <h3>icecrem</h3>
+            </div>
+            <div class="middle-content">
+                <div class="iceImg">
+                    <img src="image/ice1.png">
+                </div>
+                <div class="iceDetail">
+                    <div>
+                        <h2>엄마는 외계인</h2>
+                    </div>
+                    <div class="section">
+                        <table class="product-info">
+                            <tbody>
+                                <tr>
+                                    <th>구성</th>
+                                    <td>[베스킨라빈스s]싱글컵</td>
+                                </tr>
+                                <tr>
+                                    <th>가격</th>
+                                    <td>
+                                        <span id = "price">3800</span>원
+                                        <!--span은 inline 속성 한 라인 안에서 영역을 주고 싶을 때 사용-->
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>수량</th>
+                                    <td>
+                                        <button class="minusBtn" onclick="minus();">-</button>
+                                        <input type="text" id="count" value="1" style="width:20px;">
+                                        <button class="plusBtn" onclick="plus();">+</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>적립포인트</th>
+                                    <td>0P</td>
+                                </tr>
+                            </table>
+                        </tbody>
+                    </div>
+                    <div class="buy-btn">
+                        <button type="button" class="giftBtn">선물하기</button>
+                        <button type="button" class="cartBtn">장바구니</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tap-wrap">
+        <div class="tap">
+            <div>상품정보</div>
+            <div>이용안내</div>
+            <div>주의사항</div>
+        </div>
+        <div class="tap-content">
+            <div class="product-detail hide">
+                <p>상세상품</p>
+                <p>상세상품</p>
+                <p>상세상품</p>
+                <p>상세상품</p>
+                <p>상세상품</p>
+                <p>상세상품</p>
+                <p>상세상품</p>
+                <p>상세상품</p>
+                <p>상세상품</p>
+                <p>상세상품</p>
+                <p>상세상품</p>
+                <p>상세상품</p>  
+                <p>상세상품</p>
+                <p>상세상품</p>
+                <p>상세상품</p>
+                <p>상세상품</p>
+                <p>상세상품</p>  
+                <p>상세상품</p>
+                <p>상세상품</p>
+                <p>상세상품</p>
+                <p>상세상품</p>
+                <p>상세상품</p>
+                <div id="bg"></div>
+                <button id="more-btn">더보기</button>
+                
+            </div>
+            <div>
+                <p>이용안내</p>    
+                <p>이용안내</p>    
+                <p>이용안내</p>    
+                <p>이용안내</p>    
+                <p>이용안내</p>    
+                <p>이용안내</p>    
+                <p>이용안내</p>    
+                <p>이용안내</p>    
+                <p>이용안내</p>    
+            </div>
+            <div>
+                <p>주의사항</p>    
+                <p>주의사항</p>    
+                <p>주의사항</p>    
+                <p>주의사항</p>    
+                <p>주의사항</p>    
+                <p>주의사항</p>    
+                <p>주의사항</p>    
+                <p>주의사항</p>    
+                <p>주의사항</p>    
+                <p>주의사항</p>    
+                <p>주의사항</p>    
+            </div>
+    </div>
+
+    <script src="js/ice.js"></script>
+</body>
+
+</html>
